@@ -10,6 +10,7 @@ on:
     paths:
       - ".github/workflows/paper-trading-pages.yml"
       - "paper_update.py"
+      - "paper_update_cloud.py"
       - "monitor_frontend/**"
 
 permissions:
@@ -39,7 +40,7 @@ jobs:
           python-version: "3.13"
 
       - name: Run paper trading update
-        run: python paper_update.py
+        run: python paper_update_cloud.py
 
       - name: Commit paper trading data
         run: |
