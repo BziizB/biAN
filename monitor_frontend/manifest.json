@@ -1,10 +1,10 @@
 {
-  "name": "biAN Paper Monitor",
-  "short_name": "biAN Monitor",
-  "description": "Paper trading observation dashboard for the fixed Swing Bullish BOS plus strong ADX strategy. Pages source enabled.",
+  "name": "biAN 纸上交易监控",
+  "short_name": "biAN 监控",
+  "description": "固定 Swing Bullish BOS plus strong ADX 策略的纸上交易观察面板，时间统一为北京时间。",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#101820",
-  "theme_color": "#101820",
+  "background_color": "#101310",
+  "theme_color": "#111613",
   "icons": []
 }
