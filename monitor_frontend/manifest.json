@@ -1,1 +1,10 @@
-{"name":"biAN Paper Monitor","short_name":"biAN Monitor","start_url":"./","display":"standalone","background_color":"#101820","theme_color":"#101820","icons":[]}
+{
+  "name": "biAN Paper Monitor",
+  "short_name": "biAN Monitor",
+  "description": "Paper trading observation dashboard for the fixed Swing Bullish BOS plus strong ADX strategy.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#101820",
+  "theme_color": "#101820",
+  "icons": []
+}
