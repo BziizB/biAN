@@ -3,7 +3,9 @@ name: Paper Trading Pages
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    # GitHub Actions does not guarantee exact timing; this is the practical minimum cadence.
+    # Offset from :00/:15/:30/:45 to give Binance 15M candles time to close and reduce queue pressure.
+    - cron: "3-58/5 * * * *"
   push:
     branches:
       - main
@@ -20,7 +22,7 @@ permissions:
 
 concurrency:
   group: paper-trading-pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update-and-deploy:
