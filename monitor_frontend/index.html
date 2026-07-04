@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101820">
+  <title>biAN Paper Monitor</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>biAN Paper Monitor</h1>
+      <p>Swing Bullish BOS + strong ADX, paper trading observation only</p>
+    </div>
+    <button id="refreshBtn" type="button">Refresh</button>
+  </header>
+  <main>
+    <section class="grid cards" id="cards"></section>
+    <section class="panel">
+      <div class="panel-head"><h2>Open Positions</h2></div>
+      <div class="table-wrap"><table id="positionsTable"></table></div>
+    </section>
+    <section class="split">
+      <div class="panel">
+        <div class="panel-head"><h2>Latest Signals</h2></div>
+        <div class="table-wrap"><table id="signalsTable"></table></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h2>Latest Trades</h2></div>
+        <div class="table-wrap"><table id="tradesTable"></table></div>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="panel-head"><h2>Daily Report</h2></div>
+      <pre id="dailyReport"></pre>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
