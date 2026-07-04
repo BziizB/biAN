@@ -8,9 +8,9 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 
 ## Summary
 
-- open_positions: 4 (ETH, DOGE, LINK, LTC)
-- new_signals: 5
-- new_entries: 5
+- open_positions: 6 (BTC, ETH, DOGE, LINK, AVAX, LTC)
+- new_signals: 7
+- new_entries: 7
 - closed_trades: 1
 - daily_net_R: 2.9299
 - cumulative_net_R: 2.9299
