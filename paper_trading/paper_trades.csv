@@ -1,0 +1,1 @@
+﻿trade_id,market,direction,signal_time,entry_time,entry_price,atr_at_entry,stop_loss,take_profit,exit_time,exit_price,exit_reason,gross_R,cost_R,net_R,bars_held,adx_at_signal,bos_level,mfe_R,mae_R,status
