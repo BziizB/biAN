@@ -3,8 +3,8 @@
   "strategy_name": "Swing Bullish BOS + strong ADX",
   "status": "Paper Trading Candidate",
   "created_at": "2026-07-04T04:09:48+00:00",
-  "last_run_at": "2026-07-04T19:52:46+00:00",
-  "last_data_time": "2026-07-04 19:30:00",
+  "last_run_at": "2026-07-04T20:41:39+00:00",
+  "last_data_time": "2026-07-04 20:15:00",
   "next_trade_seq": 8,
   "warnings": [],
   "consistency": {
@@ -24,7 +24,7 @@
       "risk_per_unit": 371.8324252374149,
       "stop_loss": 62804.15757476258,
       "take_profit": 64291.48727571224,
-      "bars_held": 8,
+      "bars_held": 11,
       "max_holding_bars": 64,
       "signal_time": "2026-07-04 17:30:00",
       "signal_details": {
@@ -33,10 +33,10 @@
         "swing_high_level": 62979.86,
         "swing_low_level": 57800.19
       },
-      "unrealized_R": 0.4416013528006951,
+      "unrealized_R": -0.0786902809277792,
       "mfe_R": 0.7691636893081314,
       "mae_R": 0.22582753493428215,
-      "last_processed_bar": "2026-07-04 19:30:00"
+      "last_processed_bar": "2026-07-04 20:15:00"
     },
     "ETH": {
       "market": "ETH",
@@ -49,7 +49,7 @@
       "risk_per_unit": 18.59505489206515,
       "stop_loss": 1766.444945107935,
       "take_profit": 1840.8251646761955,
-      "bars_held": 18,
+      "bars_held": 21,
       "max_holding_bars": 64,
       "signal_time": "2026-07-04 15:00:00",
       "signal_details": {
@@ -58,10 +58,10 @@
         "swing_high_level": 1775.78,
         "swing_low_level": 1550.2
       },
-      "unrealized_R": 0.5788467989192688,
+      "unrealized_R": -0.05506593048223352,
       "mfe_R": 1.2159146682405453,
       "mae_R": 0.32481754074183145,
-      "last_processed_bar": "2026-07-04 19:30:00"
+      "last_processed_bar": "2026-07-04 20:15:00"
     },
     "SOL": {
       "market": "SOL",
@@ -81,7 +81,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-07-04 19:30:00"
+      "last_processed_bar": "2026-07-04 20:15:00"
     },
     "XRP": {
       "market": "XRP",
@@ -101,7 +101,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-07-04 19:30:00"
+      "last_processed_bar": "2026-07-04 20:15:00"
     },
     "DOGE": {
       "market": "DOGE",
@@ -114,7 +114,7 @@
       "risk_per_unit": 0.0009712474081167455,
       "stop_loss": 0.07773875259188326,
       "take_profit": 0.08162374222435023,
-      "bars_held": 16,
+      "bars_held": 19,
       "max_holding_bars": 64,
       "signal_time": "2026-07-04 15:30:00",
       "signal_details": {
@@ -123,10 +123,10 @@
         "swing_high_level": 0.07848,
         "swing_low_level": 0.06952
       },
-      "unrealized_R": 0.0293478260655356,
+      "unrealized_R": -0.6809366948864016,
       "mfe_R": 0.6898345307290321,
-      "mae_R": 0.6486503796407337,
-      "last_processed_bar": "2026-07-04 19:30:00"
+      "mae_R": 0.8133869839939276,
+      "last_processed_bar": "2026-07-04 20:15:00"
     },
     "ADA": {
       "market": "ADA",
@@ -146,7 +146,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-07-04 19:30:00"
+      "last_processed_bar": "2026-07-04 20:15:00"
     },
     "LINK": {
       "market": "LINK",
@@ -159,7 +159,7 @@
       "risk_per_unit": 0.09176522442859844,
       "stop_loss": 7.9572347755714015,
       "take_profit": 8.324295673285794,
-      "bars_held": 18,
+      "bars_held": 21,
       "max_holding_bars": 64,
       "signal_time": "2026-07-04 15:00:00",
       "signal_details": {
@@ -168,10 +168,10 @@
         "swing_high_level": 8.04,
         "swing_low_level": 7.076
       },
-      "unrealized_R": 0.47698897128571094,
+      "unrealized_R": -0.1876179141630731,
       "mfe_R": 1.383966538422385,
-      "mae_R": 0.09807636886458167,
-      "last_processed_bar": "2026-07-04 19:30:00"
+      "mae_R": 0.15256324045600303,
+      "last_processed_bar": "2026-07-04 20:15:00"
     },
     "AVAX": {
       "market": "AVAX",
@@ -184,7 +184,7 @@
       "risk_per_unit": 0.0832775835167625,
       "stop_loss": 6.960722416483237,
       "take_profit": 7.293832750550287,
-      "bars_held": 8,
+      "bars_held": 11,
       "max_holding_bars": 64,
       "signal_time": "2026-07-04 17:30:00",
       "signal_details": {
@@ -193,10 +193,10 @@
         "swing_high_level": 7.035,
         "swing_low_level": 6.792
       },
-      "unrealized_R": -0.17790141565547685,
+      "unrealized_R": -0.7421661074922844,
       "mfe_R": 0.8525703676993631,
-      "mae_R": 0.372249033784222,
-      "last_processed_bar": "2026-07-04 19:30:00"
+      "mae_R": 0.8165462676557163,
+      "last_processed_bar": "2026-07-04 20:15:00"
     },
     "LTC": {
       "market": "LTC",
@@ -209,7 +209,7 @@
       "risk_per_unit": 0.5180859710443441,
       "stop_loss": 44.851914028955655,
       "take_profit": 46.92425791313303,
-      "bars_held": 11,
+      "bars_held": 14,
       "max_holding_bars": 64,
       "signal_time": "2026-07-04 16:45:00",
       "signal_details": {
@@ -218,10 +218,10 @@
         "swing_high_level": 45.35,
         "swing_low_level": 43.1
       },
-      "unrealized_R": -0.28590235651703366,
+      "unrealized_R": -0.9420328425728105,
       "mfe_R": 0.6562617384034553,
-      "mae_R": 0.4632435800494833,
-      "last_processed_bar": "2026-07-04 19:30:00"
+      "mae_R": 0.9650907917697774,
+      "last_processed_bar": "2026-07-04 20:15:00"
     }
   },
   "fetch_errors": {}
