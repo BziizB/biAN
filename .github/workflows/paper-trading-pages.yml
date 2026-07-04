@@ -20,7 +20,7 @@ permissions:
 
 concurrency:
   group: paper-trading-pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update-and-deploy:
@@ -35,14 +35,18 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Python
+        if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
 
       - name: Run paper trading update
+        if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+        timeout-minutes: 12
         run: python paper_update_cloud.py
 
       - name: Commit paper trading data
+        if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
