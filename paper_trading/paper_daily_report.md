@@ -8,21 +8,21 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 
 ## Summary
 
-- open_positions: 0 (none)
-- new_signals: 0
-- new_entries: 0
-- closed_trades: 0
-- daily_net_R: 0.0000
-- cumulative_net_R: 0.0000
-- trades: 0
-- avg_R: NA
-- win_rate: NA
+- open_positions: 3 (ETH, DOGE, LINK)
+- new_signals: 4
+- new_entries: 4
+- closed_trades: 1
+- daily_net_R: 2.9299
+- cumulative_net_R: 2.9299
+- trades: 1
+- avg_R: 2.929937227333756
+- win_rate: 1.0
 - profit_factor: NA
 - max_drawdown_R: 0.0000
 - current_drawdown_R: 0.0000
-- positive_markets: 0
-- last_60_trades_avg_R: NA
-- last_60_trades_profit_factor: NA
+- positive_markets: 1
+- last_60_trades_avg_R: 2.929937227333756
+- last_60_trades_profit_factor: None
 - mismatch_rate: 0.0000%
 
 ## Warning Monitor
@@ -33,20 +33,24 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 
 ## Market Breakdown
 
-_No rows._
+| market | trades | net_R | avg_R |
+| --- | --- | --- | --- |
+| ADA | 1 | 2.9299 | 2.9299 |
 
 ## Last 20 Trades
 
-_No rows._
+| trade_id | market | entry_time | exit_time | exit_reason | net_R | mfe_R | mae_R |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| PT-000003-ADA | ADA | 2026-07-04 14:45:00 | 2026-07-04 16:15:00 | TP | 2.9299 | 3.1207 | 0.0000 |
 
 ## Risk Mapping
 
 | risk_per_trade | estimated_return_pct | current_drawdown_pct | historical_max_dd_pct_estimate |
 | --- | --- | --- | --- |
-| 0.10% | 0.00% | 0.00% | 3.99% |
-| 0.25% | 0.00% | 0.00% | 9.97% |
-| 0.50% | 0.00% | 0.00% | 19.94% |
-| 1.00% | 0.00% | 0.00% | 39.88% |
+| 0.10% | 0.29% | 0.00% | 3.99% |
+| 0.25% | 0.73% | 0.00% | 9.97% |
+| 0.50% | 1.46% | 0.00% | 19.94% |
+| 1.00% | 2.93% | 0.00% | 39.88% |
 
 Default recommendation: paper trading or small observation at 0.1% - 0.25% risk per trade. 0.5% is not recommended. 1.0% is forbidden.
 
