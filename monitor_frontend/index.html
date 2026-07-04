@@ -1,42 +1,111 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101820">
-  <title>biAN Paper Monitor</title>
+  <meta name="theme-color" content="#111613">
+  <title>biAN 纸上交易监控</title>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="topbar">
-    <div>
-      <h1>biAN Paper Monitor</h1>
-      <p>Swing Bullish BOS + strong ADX, paper trading observation only</p>
+    <div class="brand-block">
+      <p class="eyebrow">Paper Trading Candidate</p>
+      <h1>biAN 纸上交易监控</h1>
+      <p class="subtitle">Swing Bullish BOS + strong ADX · 15M · 北京时间 UTC+8</p>
     </div>
-    <button id="refreshBtn" type="button">Refresh</button>
+    <div class="top-actions">
+      <span class="status-pill" id="statusPill">加载中</span>
+      <button id="refreshBtn" type="button">刷新</button>
+    </div>
   </header>
-  <main>
-    <section class="grid cards" id="cards"></section>
-    <section class="panel">
-      <div class="panel-head"><h2>Open Positions</h2></div>
+
+  <main class="dashboard">
+    <section class="time-strip" aria-label="时间状态">
+      <div>
+        <span>最近云端运行</span>
+        <strong id="lastRunTime">--</strong>
+      </div>
+      <div>
+        <span>最新已收盘K线</span>
+        <strong id="lastDataTime">--</strong>
+      </div>
+      <div>
+        <span>K线覆盖区间</span>
+        <strong id="barWindow">--</strong>
+      </div>
+      <div>
+        <span>数据延迟</span>
+        <strong id="runAge">--</strong>
+      </div>
+    </section>
+
+    <section class="metric-grid" id="cards" aria-label="核心指标"></section>
+
+    <section class="panel positions-panel">
+      <div class="panel-head">
+        <div>
+          <p class="section-kicker">Positions</p>
+          <h2>当前持仓</h2>
+        </div>
+      </div>
       <div class="table-wrap"><table id="positionsTable"></table></div>
     </section>
+
     <section class="split">
       <div class="panel">
-        <div class="panel-head"><h2>Latest Signals</h2></div>
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Signals</p>
+            <h2>最近信号</h2>
+          </div>
+        </div>
         <div class="table-wrap"><table id="signalsTable"></table></div>
       </div>
       <div class="panel">
-        <div class="panel-head"><h2>Latest Trades</h2></div>
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Trades</p>
+            <h2>最近交易</h2>
+          </div>
+        </div>
         <div class="table-wrap"><table id="tradesTable"></table></div>
       </div>
     </section>
+
+    <section class="split">
+      <div class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Markets</p>
+            <h2>市场贡献</h2>
+          </div>
+        </div>
+        <div class="table-wrap"><table id="marketTable"></table></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Risk</p>
+            <h2>风险映射</h2>
+          </div>
+        </div>
+        <div class="table-wrap"><table id="riskTable"></table></div>
+      </div>
+    </section>
+
     <section class="panel">
-      <div class="panel-head"><h2>Daily Report</h2></div>
-      <pre id="dailyReport"></pre>
+      <div class="panel-head">
+        <div>
+          <p class="section-kicker">Daily</p>
+          <h2>每日绩效摘要</h2>
+        </div>
+      </div>
+      <div id="dailyReport" class="report-body"></div>
     </section>
   </main>
+
   <script src="app.js"></script>
 </body>
 </html>
