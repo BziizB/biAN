@@ -3,8 +3,8 @@
   "strategy_name": "Swing Bullish BOS + strong ADX",
   "status": "Paper Trading Candidate",
   "created_at": "2026-07-04T04:09:48+00:00",
-  "last_run_at": "2026-07-04T23:43:59+00:00",
-  "last_data_time": "2026-07-04 23:15:00",
+  "last_run_at": "2026-07-05T01:26:36+00:00",
+  "last_data_time": "2026-07-05 01:00:00",
   "next_trade_seq": 8,
   "warnings": [
     "Recent 3 calendar months cumulative net_R below 0"
@@ -26,7 +26,7 @@
       "risk_per_unit": 371.8324252374149,
       "stop_loss": 62804.15757476258,
       "take_profit": 64291.48727571224,
-      "bars_held": 23,
+      "bars_held": 30,
       "max_holding_bars": 64,
       "signal_time": "2026-07-04 17:30:00",
       "signal_details": {
@@ -35,10 +35,10 @@
         "swing_high_level": 62979.86,
         "swing_low_level": 57800.19
       },
-      "unrealized_R": -0.2776917476577403,
+      "unrealized_R": -0.5573048070449519,
       "mfe_R": 0.7691636893081314,
-      "mae_R": 0.6669940090395302,
-      "last_processed_bar": "2026-07-04 23:15:00"
+      "mae_R": 0.7722026926959502,
+      "last_processed_bar": "2026-07-05 01:00:00"
     },
     "ETH": {
       "market": "ETH",
@@ -51,7 +51,7 @@
       "risk_per_unit": 18.59505489206515,
       "stop_loss": 1766.444945107935,
       "take_profit": 1840.8251646761955,
-      "bars_held": 33,
+      "bars_held": 40,
       "max_holding_bars": 64,
       "signal_time": "2026-07-04 15:00:00",
       "signal_details": {
@@ -60,10 +60,10 @@
         "swing_high_level": 1775.78,
         "swing_low_level": 1550.2
       },
-      "unrealized_R": -0.3701404507784979,
+      "unrealized_R": -0.7583380679353097,
       "mfe_R": 1.2159146682405453,
-      "mae_R": 0.6958839366224076,
-      "last_processed_bar": "2026-07-04 23:15:00"
+      "mae_R": 0.828177173414601,
+      "last_processed_bar": "2026-07-05 01:00:00"
     },
     "SOL": {
       "market": "SOL",
@@ -83,7 +83,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-07-04 23:15:00"
+      "last_processed_bar": "2026-07-05 01:00:00"
     },
     "XRP": {
       "market": "XRP",
@@ -103,7 +103,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-07-04 23:15:00"
+      "last_processed_bar": "2026-07-05 01:00:00"
     },
     "DOGE": {
       "market": "DOGE",
@@ -123,7 +123,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-07-04 23:15:00"
+      "last_processed_bar": "2026-07-05 01:00:00"
     },
     "ADA": {
       "market": "ADA",
@@ -143,32 +143,27 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-07-04 23:15:00"
+      "last_processed_bar": "2026-07-05 01:00:00"
     },
     "LINK": {
       "market": "LINK",
-      "position_status": "OPEN",
-      "trade_id": "PT-000004-LINK",
-      "entry_time": "2026-07-04 15:00:00",
-      "entry_price": 8.0506098,
-      "entry_close": 8.049,
-      "atr_at_entry": 0.030588408142866147,
-      "risk_per_unit": 0.09176522442859844,
-      "stop_loss": 7.9572347755714015,
-      "take_profit": 8.324295673285794,
-      "bars_held": 33,
+      "position_status": "FLAT",
+      "trade_id": null,
+      "entry_time": null,
+      "entry_price": null,
+      "entry_close": null,
+      "atr_at_entry": null,
+      "risk_per_unit": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "bars_held": 0,
       "max_holding_bars": 64,
-      "signal_time": "2026-07-04 15:00:00",
-      "signal_details": {
-        "adx_at_signal": 34.08332246116476,
-        "bos_level": 8.04,
-        "swing_high_level": 8.04,
-        "swing_low_level": 7.076
-      },
-      "unrealized_R": -0.5035785646223299,
-      "mfe_R": 1.383966538422385,
-      "mae_R": 0.8173030738714752,
-      "last_processed_bar": "2026-07-04 23:15:00"
+      "signal_time": null,
+      "signal_details": {},
+      "unrealized_R": 0.0,
+      "mfe_R": 0.0,
+      "mae_R": 0.0,
+      "last_processed_bar": "2026-07-05 01:00:00"
     },
     "AVAX": {
       "market": "AVAX",
@@ -188,7 +183,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-07-04 23:15:00"
+      "last_processed_bar": "2026-07-05 01:00:00"
     },
     "LTC": {
       "market": "LTC",
@@ -208,7 +203,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-07-04 23:15:00"
+      "last_processed_bar": "2026-07-05 01:00:00"
     }
   },
   "fetch_errors": {}

@@ -1,6 +1,6 @@
 # Paper Trading Daily Report
 
-date: 2026-07-04
+date: 2026-07-05
 
 strategy: Swing Bullish BOS + strong ADX
 
@@ -8,21 +8,21 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 
 ## Summary
 
-- open_positions: 3 (BTC, ETH, LINK)
-- new_signals: 7
-- new_entries: 7
-- closed_trades: 4
-- daily_net_R: -0.4728
-- cumulative_net_R: -0.4728
-- trades: 4
-- avg_R: -0.11819459862721782
-- win_rate: 0.25
-- profit_factor: 0.8610585053085177
-- max_drawdown_R: 2.2739
-- current_drawdown_R: 2.2739
+- open_positions: 2 (BTC, ETH)
+- new_signals: 0
+- new_entries: 0
+- closed_trades: 1
+- daily_net_R: -1.1395
+- cumulative_net_R: -1.6123
+- trades: 5
+- avg_R: -0.32246385198589855
+- win_rate: 0.2
+- profit_factor: 0.645040022629605
+- max_drawdown_R: 3.4134
+- current_drawdown_R: 3.4134
 - positive_markets: 1
-- last_60_trades_avg_R: -0.11819459862721782
-- last_60_trades_profit_factor: 0.8610585053085177
+- last_60_trades_avg_R: -0.32246385198589855
+- last_60_trades_profit_factor: 0.645040022629605
 - mismatch_rate: 0.0000%
 
 ## Warning Monitor
@@ -39,6 +39,7 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 | DOGE | 1 | -1.1289 | -1.1289 |
 | AVAX | 1 | -1.1345 | -1.1345 |
 | LTC | 1 | -1.1393 | -1.1393 |
+| LINK | 1 | -1.1395 | -1.1395 |
 
 ## Last 20 Trades
 
@@ -46,6 +47,7 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | PT-000002-DOGE | DOGE | 2026-07-04 15:30:00 | 2026-07-04 23:00:00 | SL | -1.1289 | 0.6898 | 1.2252 |
 | PT-000003-ADA | ADA | 2026-07-04 14:45:00 | 2026-07-04 16:15:00 | TP | 2.9299 | 3.1207 | 0.0000 |
+| PT-000004-LINK | LINK | 2026-07-04 15:00:00 | 2026-07-05 00:30:00 | SL | -1.1395 | 1.3840 | 1.0679 |
 | PT-000005-LTC | LTC | 2026-07-04 16:45:00 | 2026-07-04 23:00:00 | SL | -1.1393 | 0.6563 | 1.1967 |
 | PT-000007-AVAX | AVAX | 2026-07-04 17:30:00 | 2026-07-04 23:00:00 | SL | -1.1345 | 0.8526 | 1.1288 |
 
@@ -53,10 +55,10 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 
 | risk_per_trade | estimated_return_pct | current_drawdown_pct | historical_max_dd_pct_estimate |
 | --- | --- | --- | --- |
-| 0.10% | -0.05% | 0.23% | 3.99% |
-| 0.25% | -0.12% | 0.57% | 9.97% |
-| 0.50% | -0.24% | 1.14% | 19.94% |
-| 1.00% | -0.47% | 2.27% | 39.88% |
+| 0.10% | -0.16% | 0.34% | 3.99% |
+| 0.25% | -0.40% | 0.85% | 9.97% |
+| 0.50% | -0.81% | 1.71% | 19.94% |
+| 1.00% | -1.61% | 3.41% | 39.88% |
 
 Default recommendation: paper trading or small observation at 0.1% - 0.25% risk per trade. 0.5% is not recommended. 1.0% is forbidden.
 
