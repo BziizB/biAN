@@ -1,6 +1,6 @@
 # Paper Trading Daily Report
 
-date: 2026-07-10
+date: 2026-07-11
 
 strategy: Swing Bullish BOS + strong ADX
 
@@ -9,10 +9,10 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 ## Summary
 
 - open_positions: 0 (none)
-- new_signals: 1
-- new_entries: 1
-- closed_trades: 1
-- daily_net_R: -1.2307
+- new_signals: 0
+- new_entries: 0
+- closed_trades: 0
+- daily_net_R: 0.0000
 - cumulative_net_R: -6.3921
 - trades: 9
 - avg_R: -0.7102382808319053
