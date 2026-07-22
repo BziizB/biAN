@@ -3,11 +3,12 @@
   "strategy_name": "Swing Bullish BOS + strong ADX",
   "status": "Paper Trading Candidate",
   "created_at": "2026-07-04T04:09:48+00:00",
-  "last_run_at": "2026-07-22T04:31:54+00:00",
+  "last_run_at": "2026-07-22T04:35:57+00:00",
   "last_data_time": "2026-07-22 04:15:00",
   "next_trade_seq": 13,
   "warnings": [
-    "Recent 3 calendar months cumulative net_R below 0"
+    "Recent 3 calendar months cumulative net_R below 0",
+    "No closed Binance 15M data processed; paper state is stale"
   ],
   "consistency": {
     "mismatch_rate": 0.0,
