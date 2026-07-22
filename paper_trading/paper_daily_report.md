@@ -28,7 +28,6 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 ## Warning Monitor
 
 - WARNING: Recent 3 calendar months cumulative net_R below 0
-- WARNING: No closed Binance 15M data processed; paper state is stale
 
 If WARNING is triggered, pause new live-position recommendations and continue paper signal logging.
 
