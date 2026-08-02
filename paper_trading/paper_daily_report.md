@@ -8,25 +8,26 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 
 ## Summary
 
-- open_positions: 1 (BTC)
+- open_positions: 0 (none)
 - new_signals: 1
 - new_entries: 1
-- closed_trades: 0
-- daily_net_R: 0.0000
-- cumulative_net_R: -11.5270
-- trades: 14
-- avg_R: -0.8233589135557562
-- win_rate: 0.07142857142857142
-- profit_factor: 0.20266617729681088
-- max_drawdown_R: 12.1753
-- current_drawdown_R: 12.1753
+- closed_trades: 1
+- daily_net_R: -1.3687
+- cumulative_net_R: -12.8957
+- trades: 15
+- avg_R: -0.8597163345873232
+- win_rate: 0.06666666666666667
+- profit_factor: 0.1851381306513798
+- max_drawdown_R: 13.5440
+- current_drawdown_R: 13.5440
 - positive_markets: 1
-- last_60_trades_avg_R: -0.8233589135557562
-- last_60_trades_profit_factor: 0.20266617729681088
+- last_60_trades_avg_R: -0.8597163345873232
+- last_60_trades_profit_factor: 0.1851381306513798
 - mismatch_rate: 0.0000%
 
 ## Warning Monitor
 
+- WARNING: Consecutive losses reached 12 or more
 - WARNING: Recent 3 calendar months cumulative net_R below 0
 
 If WARNING is triggered, pause new live-position recommendations and continue paper signal logging.
@@ -40,8 +41,8 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 | LINK | 1 | -1.1395 | -1.1395 |
 | ETH | 2 | -2.2838 | -1.1419 |
 | DOGE | 2 | -2.2969 | -1.1484 |
-| BTC | 2 | -2.5017 | -1.2509 |
 | LTC | 3 | -3.4460 | -1.1487 |
+| BTC | 3 | -3.8704 | -1.2901 |
 
 ## Last 20 Trades
 
@@ -61,15 +62,16 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 | PT-000012-LTC | LTC | 2026-07-21 08:30:00 | 2026-07-21 10:45:00 | SL | -1.1814 | 0.1431 | 1.0256 |
 | PT-000013-ADA | ADA | 2026-07-22 15:45:00 | 2026-07-22 19:00:00 | SL | -1.0862 | 0.8863 | 1.2530 |
 | PT-000014-ADA | ADA | 2026-07-30 14:30:00 | 2026-07-31 06:30:00 | TIME | -0.5683 | 1.7613 | 0.7592 |
+| PT-000015-BTC | BTC | 2026-08-02 21:30:00 | 2026-08-02 22:30:00 | SL | -1.3687 | 0.3347 | 1.1866 |
 
 ## Risk Mapping
 
 | risk_per_trade | estimated_return_pct | current_drawdown_pct | historical_max_dd_pct_estimate |
 | --- | --- | --- | --- |
-| 0.10% | -1.15% | 1.22% | 3.99% |
-| 0.25% | -2.88% | 3.04% | 9.97% |
-| 0.50% | -5.76% | 6.09% | 19.94% |
-| 1.00% | -11.53% | 12.18% | 39.88% |
+| 0.10% | -1.29% | 1.35% | 3.99% |
+| 0.25% | -3.22% | 3.39% | 9.97% |
+| 0.50% | -6.45% | 6.77% | 19.94% |
+| 1.00% | -12.90% | 13.54% | 39.88% |
 
 Default recommendation: paper trading or small observation at 0.1% - 0.25% risk per trade. 0.5% is not recommended. 1.0% is forbidden.
 
