@@ -3,8 +3,8 @@
   "strategy_name": "Swing Bullish BOS + strong ADX",
   "status": "Paper Trading Candidate",
   "created_at": "2026-07-04T04:09:48+00:00",
-  "last_run_at": "2026-08-02T21:53:28+00:00",
-  "last_data_time": "2026-08-02 21:30:00",
+  "last_run_at": "2026-08-02T22:44:20+00:00",
+  "last_data_time": "2026-08-02 22:15:00",
   "next_trade_seq": 16,
   "warnings": [
     "Recent 3 calendar months cumulative net_R below 0"
@@ -26,7 +26,7 @@
       "risk_per_unit": 275.8345581455885,
       "stop_loss": 63428.175441854415,
       "take_profit": 64531.51367443677,
-      "bars_held": 0,
+      "bars_held": 3,
       "max_holding_bars": 64,
       "signal_time": "2026-08-02 21:30:00",
       "signal_details": {
@@ -35,10 +35,10 @@
         "swing_high_level": 63634.0,
         "swing_low_level": 62275.0
       },
-      "unrealized_R": 0.0,
-      "mfe_R": 0.0,
-      "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 21:30:00"
+      "unrealized_R": -0.49841180497564247,
+      "mfe_R": 0.33469337787353026,
+      "mae_R": 0.5630549016197985,
+      "last_processed_bar": "2026-08-02 22:15:00"
     },
     "ETH": {
       "market": "ETH",
@@ -58,7 +58,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 21:30:00"
+      "last_processed_bar": "2026-08-02 22:15:00"
     },
     "SOL": {
       "market": "SOL",
@@ -78,7 +78,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 21:30:00"
+      "last_processed_bar": "2026-08-02 22:15:00"
     },
     "XRP": {
       "market": "XRP",
@@ -98,7 +98,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 21:30:00"
+      "last_processed_bar": "2026-08-02 22:15:00"
     },
     "DOGE": {
       "market": "DOGE",
@@ -118,7 +118,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 21:30:00"
+      "last_processed_bar": "2026-08-02 22:15:00"
     },
     "ADA": {
       "market": "ADA",
@@ -138,7 +138,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 21:30:00"
+      "last_processed_bar": "2026-08-02 22:15:00"
     },
     "LINK": {
       "market": "LINK",
@@ -158,7 +158,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 21:30:00"
+      "last_processed_bar": "2026-08-02 22:15:00"
     },
     "AVAX": {
       "market": "AVAX",
@@ -178,7 +178,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 21:30:00"
+      "last_processed_bar": "2026-08-02 22:15:00"
     },
     "LTC": {
       "market": "LTC",
@@ -198,7 +198,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 21:30:00"
+      "last_processed_bar": "2026-08-02 22:15:00"
     }
   },
   "fetch_errors": {}
