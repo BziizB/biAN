@@ -8,21 +8,21 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 
 ## Summary
 
-- open_positions: 1 (ADA)
-- new_signals: 1
-- new_entries: 1
-- closed_trades: 0
-- daily_net_R: 0.0000
-- cumulative_net_R: -12.8957
-- trades: 15
-- avg_R: -0.8597163345873232
-- win_rate: 0.06666666666666667
-- profit_factor: 0.1851381306513798
-- max_drawdown_R: 13.5440
-- current_drawdown_R: 13.5440
+- open_positions: 1 (BTC)
+- new_signals: 2
+- new_entries: 2
+- closed_trades: 1
+- daily_net_R: -1.0634
+- cumulative_net_R: -13.9592
+- trades: 16
+- avg_R: -0.872449469283379
+- win_rate: 0.0625
+- profit_factor: 0.17348066162296358
+- max_drawdown_R: 14.6075
+- current_drawdown_R: 14.6075
 - positive_markets: 1
-- last_60_trades_avg_R: -0.8597163345873232
-- last_60_trades_profit_factor: 0.1851381306513798
+- last_60_trades_avg_R: -0.872449469283379
+- last_60_trades_profit_factor: 0.17348066162296358
 - mismatch_rate: 0.0000%
 
 ## Warning Monitor
@@ -36,7 +36,7 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 
 | market | trades | net_R | avg_R |
 | --- | --- | --- | --- |
-| ADA | 3 | 1.2754 | 0.4251 |
+| ADA | 4 | 0.2120 | 0.0530 |
 | AVAX | 1 | -1.1345 | -1.1345 |
 | LINK | 1 | -1.1395 | -1.1395 |
 | ETH | 2 | -2.2838 | -1.1419 |
@@ -63,15 +63,16 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 | PT-000013-ADA | ADA | 2026-07-22 15:45:00 | 2026-07-22 19:00:00 | SL | -1.0862 | 0.8863 | 1.2530 |
 | PT-000014-ADA | ADA | 2026-07-30 14:30:00 | 2026-07-31 06:30:00 | TIME | -0.5683 | 1.7613 | 0.7592 |
 | PT-000015-BTC | BTC | 2026-08-02 21:30:00 | 2026-08-02 22:30:00 | SL | -1.3687 | 0.3347 | 1.1866 |
+| PT-000016-ADA | ADA | 2026-08-03 13:45:00 | 2026-08-03 14:30:00 | SL | -1.0634 | 0.2682 | 1.0730 |
 
 ## Risk Mapping
 
 | risk_per_trade | estimated_return_pct | current_drawdown_pct | historical_max_dd_pct_estimate |
 | --- | --- | --- | --- |
-| 0.10% | -1.29% | 1.35% | 3.99% |
-| 0.25% | -3.22% | 3.39% | 9.97% |
-| 0.50% | -6.45% | 6.77% | 19.94% |
-| 1.00% | -12.90% | 13.54% | 39.88% |
+| 0.10% | -1.40% | 1.46% | 3.99% |
+| 0.25% | -3.49% | 3.65% | 9.97% |
+| 0.50% | -6.98% | 7.30% | 19.94% |
+| 1.00% | -13.96% | 14.61% | 39.88% |
 
 Default recommendation: paper trading or small observation at 0.1% - 0.25% risk per trade. 0.5% is not recommended. 1.0% is forbidden.
 

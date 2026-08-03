@@ -3,9 +3,9 @@
   "strategy_name": "Swing Bullish BOS + strong ADX",
   "status": "Paper Trading Candidate",
   "created_at": "2026-07-04T04:09:48+00:00",
-  "last_run_at": "2026-08-03T14:06:32+00:00",
-  "last_data_time": "2026-08-03 13:45:00",
-  "next_trade_seq": 17,
+  "last_run_at": "2026-08-03T16:38:51+00:00",
+  "last_data_time": "2026-08-03 16:15:00",
+  "next_trade_seq": 18,
   "warnings": [
     "Consecutive losses reached 12 or more",
     "Recent 3 calendar months cumulative net_R below 0"
@@ -13,28 +13,33 @@
   "consistency": {
     "mismatch_rate": 0.0,
     "mismatches": 0,
-    "comparable_rows": 35
+    "comparable_rows": 36
   },
   "markets": {
     "BTC": {
       "market": "BTC",
-      "position_status": "FLAT",
-      "trade_id": null,
-      "entry_time": null,
-      "entry_price": null,
-      "entry_close": null,
-      "atr_at_entry": null,
-      "risk_per_unit": null,
-      "stop_loss": null,
-      "take_profit": null,
-      "bars_held": 0,
+      "position_status": "OPEN",
+      "trade_id": "PT-000017-BTC",
+      "entry_time": "2026-08-03 14:45:00",
+      "entry_price": 63979.983438,
+      "entry_close": 63967.19,
+      "atr_at_entry": 233.87032011969325,
+      "risk_per_unit": 701.6109603590797,
+      "stop_loss": 63265.57903964092,
+      "take_profit": 66072.02288107724,
+      "bars_held": 6,
       "max_holding_bars": 64,
-      "signal_time": null,
-      "signal_details": {},
-      "unrealized_R": 0.0,
-      "mfe_R": 0.0,
-      "mae_R": 0.0,
-      "last_processed_bar": "2026-08-03 13:45:00"
+      "signal_time": "2026-08-03 14:45:00",
+      "signal_details": {
+        "adx_at_signal": 31.71983697881824,
+        "bos_level": 63796.33,
+        "swing_high_level": 63796.33,
+        "swing_low_level": 62275.0
+      },
+      "unrealized_R": -0.12682839782671396,
+      "mfe_R": 0.032154571799237024,
+      "mae_R": 0.4569483917924043,
+      "last_processed_bar": "2026-08-03 16:15:00"
     },
     "ETH": {
       "market": "ETH",
@@ -54,7 +59,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-03 13:45:00"
+      "last_processed_bar": "2026-08-03 16:15:00"
     },
     "SOL": {
       "market": "SOL",
@@ -74,7 +79,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-03 13:45:00"
+      "last_processed_bar": "2026-08-03 16:15:00"
     },
     "XRP": {
       "market": "XRP",
@@ -94,7 +99,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-03 13:45:00"
+      "last_processed_bar": "2026-08-03 16:15:00"
     },
     "DOGE": {
       "market": "DOGE",
@@ -114,32 +119,27 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-03 13:45:00"
+      "last_processed_bar": "2026-08-03 16:15:00"
     },
     "ADA": {
       "market": "ADA",
-      "position_status": "OPEN",
-      "trade_id": "PT-000016-ADA",
-      "entry_time": "2026-08-03 13:45:00",
-      "entry_price": 0.19463892,
-      "entry_close": 0.1946,
-      "atr_at_entry": 0.0016154479562375164,
-      "risk_per_unit": 0.004846343868712549,
-      "stop_loss": 0.18975365613128745,
-      "take_profit": 0.20913903160613764,
+      "position_status": "FLAT",
+      "trade_id": null,
+      "entry_time": null,
+      "entry_price": null,
+      "entry_close": null,
+      "atr_at_entry": null,
+      "risk_per_unit": null,
+      "stop_loss": null,
+      "take_profit": null,
       "bars_held": 0,
       "max_holding_bars": 64,
-      "signal_time": "2026-08-03 13:45:00",
-      "signal_details": {
-        "adx_at_signal": 34.402242224026566,
-        "bos_level": 0.1922,
-        "swing_high_level": 0.1922,
-        "swing_low_level": 0.1665
-      },
+      "signal_time": null,
+      "signal_details": {},
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-03 13:45:00"
+      "last_processed_bar": "2026-08-03 16:15:00"
     },
     "LINK": {
       "market": "LINK",
@@ -159,7 +159,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-03 13:45:00"
+      "last_processed_bar": "2026-08-03 16:15:00"
     },
     "AVAX": {
       "market": "AVAX",
@@ -179,7 +179,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-03 13:45:00"
+      "last_processed_bar": "2026-08-03 16:15:00"
     },
     "LTC": {
       "market": "LTC",
@@ -199,7 +199,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-03 13:45:00"
+      "last_processed_bar": "2026-08-03 16:15:00"
     }
   },
   "fetch_errors": {}
