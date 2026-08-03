@@ -3,8 +3,8 @@
   "strategy_name": "Swing Bullish BOS + strong ADX",
   "status": "Paper Trading Candidate",
   "created_at": "2026-07-04T04:09:48+00:00",
-  "last_run_at": "2026-08-02T23:44:43+00:00",
-  "last_data_time": "2026-08-02 23:15:00",
+  "last_run_at": "2026-08-03T01:17:57+00:00",
+  "last_data_time": "2026-08-03 01:00:00",
   "next_trade_seq": 16,
   "warnings": [
     "Consecutive losses reached 12 or more",
@@ -34,7 +34,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 23:15:00"
+      "last_processed_bar": "2026-08-03 01:00:00"
     },
     "ETH": {
       "market": "ETH",
@@ -54,7 +54,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 23:15:00"
+      "last_processed_bar": "2026-08-03 01:00:00"
     },
     "SOL": {
       "market": "SOL",
@@ -74,7 +74,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 23:15:00"
+      "last_processed_bar": "2026-08-03 01:00:00"
     },
     "XRP": {
       "market": "XRP",
@@ -94,7 +94,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 23:15:00"
+      "last_processed_bar": "2026-08-03 01:00:00"
     },
     "DOGE": {
       "market": "DOGE",
@@ -114,7 +114,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 23:15:00"
+      "last_processed_bar": "2026-08-03 01:00:00"
     },
     "ADA": {
       "market": "ADA",
@@ -134,7 +134,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 23:15:00"
+      "last_processed_bar": "2026-08-03 01:00:00"
     },
     "LINK": {
       "market": "LINK",
@@ -154,7 +154,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 23:15:00"
+      "last_processed_bar": "2026-08-03 01:00:00"
     },
     "AVAX": {
       "market": "AVAX",
@@ -174,7 +174,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 23:15:00"
+      "last_processed_bar": "2026-08-03 01:00:00"
     },
     "LTC": {
       "market": "LTC",
@@ -194,7 +194,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-08-02 23:15:00"
+      "last_processed_bar": "2026-08-03 01:00:00"
     }
   },
   "fetch_errors": {}
