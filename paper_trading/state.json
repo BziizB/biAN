@@ -3,8 +3,8 @@
   "strategy_name": "Swing Bullish BOS + strong ADX",
   "status": "Paper Trading Candidate",
   "created_at": "2026-07-04T04:09:48+00:00",
-  "last_run_at": "2026-09-05T19:29:42+00:00",
-  "last_data_time": "2026-09-05 19:00:00",
+  "last_run_at": "2026-09-05T21:35:03+00:00",
+  "last_data_time": "2026-09-05 21:15:00",
   "next_trade_seq": 32,
   "warnings": [
     "Consecutive losses reached 12 or more",
@@ -34,7 +34,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-05 19:00:00"
+      "last_processed_bar": "2026-09-05 21:15:00"
     },
     "ETH": {
       "market": "ETH",
@@ -54,7 +54,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-05 19:00:00"
+      "last_processed_bar": "2026-09-05 21:15:00"
     },
     "SOL": {
       "market": "SOL",
@@ -74,7 +74,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-05 19:00:00"
+      "last_processed_bar": "2026-09-05 21:15:00"
     },
     "XRP": {
       "market": "XRP",
@@ -94,7 +94,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-05 19:00:00"
+      "last_processed_bar": "2026-09-05 21:15:00"
     },
     "DOGE": {
       "market": "DOGE",
@@ -114,7 +114,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-05 19:00:00"
+      "last_processed_bar": "2026-09-05 21:15:00"
     },
     "ADA": {
       "market": "ADA",
@@ -134,7 +134,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-05 19:00:00"
+      "last_processed_bar": "2026-09-05 21:15:00"
     },
     "LINK": {
       "market": "LINK",
@@ -154,7 +154,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-05 19:00:00"
+      "last_processed_bar": "2026-09-05 21:15:00"
     },
     "AVAX": {
       "market": "AVAX",
@@ -167,7 +167,7 @@
       "risk_per_unit": 0.06760466705322471,
       "stop_loss": 7.516395332946775,
       "take_profit": 7.786814001159674,
-      "bars_held": 8,
+      "bars_held": 17,
       "max_holding_bars": 64,
       "signal_time": "2026-09-05 17:00:00",
       "signal_details": {
@@ -176,10 +176,10 @@
         "swing_high_level": 7.578,
         "swing_low_level": 7.269
       },
-      "unrealized_R": 0.2065389951407854,
+      "unrealized_R": 0.4875284715780341,
       "mfe_R": 0.9762639604162144,
       "mae_R": 0.325421320138725,
-      "last_processed_bar": "2026-09-05 19:00:00"
+      "last_processed_bar": "2026-09-05 21:15:00"
     },
     "LTC": {
       "market": "LTC",
@@ -199,7 +199,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-05 19:00:00"
+      "last_processed_bar": "2026-09-05 21:15:00"
     }
   },
   "fetch_errors": {}
