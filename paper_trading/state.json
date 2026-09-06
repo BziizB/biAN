@@ -3,9 +3,9 @@
   "strategy_name": "Swing Bullish BOS + strong ADX",
   "status": "Paper Trading Candidate",
   "created_at": "2026-07-04T04:09:48+00:00",
-  "last_run_at": "2026-09-06T01:02:46+00:00",
-  "last_data_time": "2026-09-06 00:45:00",
-  "next_trade_seq": 32,
+  "last_run_at": "2026-09-06T05:48:53+00:00",
+  "last_data_time": "2026-09-06 05:30:00",
+  "next_trade_seq": 33,
   "warnings": [
     "Consecutive losses reached 12 or more",
     "Recent 3 calendar months cumulative net_R below 0"
@@ -13,7 +13,7 @@
   "consistency": {
     "mismatch_rate": 0.0,
     "mismatches": 0,
-    "comparable_rows": 82
+    "comparable_rows": 84
   },
   "markets": {
     "BTC": {
@@ -34,7 +34,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-06 00:45:00"
+      "last_processed_bar": "2026-09-06 05:30:00"
     },
     "ETH": {
       "market": "ETH",
@@ -54,27 +54,32 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-06 00:45:00"
+      "last_processed_bar": "2026-09-06 05:30:00"
     },
     "SOL": {
       "market": "SOL",
-      "position_status": "FLAT",
-      "trade_id": null,
-      "entry_time": null,
-      "entry_price": null,
-      "entry_close": null,
-      "atr_at_entry": null,
-      "risk_per_unit": null,
-      "stop_loss": null,
-      "take_profit": null,
-      "bars_held": 0,
+      "position_status": "OPEN",
+      "trade_id": "PT-000032-SOL",
+      "entry_time": "2026-09-06 03:30:00",
+      "entry_price": 106.481292,
+      "entry_close": 106.46,
+      "atr_at_entry": 0.4675630934591517,
+      "risk_per_unit": 1.402689280377455,
+      "stop_loss": 105.05731071962254,
+      "take_profit": 110.66806784113236,
+      "bars_held": 8,
       "max_holding_bars": 64,
-      "signal_time": null,
-      "signal_details": {},
-      "unrealized_R": 0.0,
-      "mfe_R": 0.0,
-      "mae_R": 0.0,
-      "last_processed_bar": "2026-09-06 00:45:00"
+      "signal_time": "2026-09-06 03:30:00",
+      "signal_details": {
+        "adx_at_signal": 37.004101800050336,
+        "bos_level": 105.91,
+        "swing_high_level": 105.91,
+        "swing_low_level": 100.21
+      },
+      "unrealized_R": -0.044614299742247315,
+      "mfe_R": 0.26377901733193526,
+      "mae_R": 0.6986579377980829,
+      "last_processed_bar": "2026-09-06 05:30:00"
     },
     "XRP": {
       "market": "XRP",
@@ -94,7 +99,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-06 00:45:00"
+      "last_processed_bar": "2026-09-06 05:30:00"
     },
     "DOGE": {
       "market": "DOGE",
@@ -114,7 +119,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-06 00:45:00"
+      "last_processed_bar": "2026-09-06 05:30:00"
     },
     "ADA": {
       "market": "ADA",
@@ -134,7 +139,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-06 00:45:00"
+      "last_processed_bar": "2026-09-06 05:30:00"
     },
     "LINK": {
       "market": "LINK",
@@ -154,7 +159,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-06 00:45:00"
+      "last_processed_bar": "2026-09-06 05:30:00"
     },
     "AVAX": {
       "market": "AVAX",
@@ -167,7 +172,7 @@
       "risk_per_unit": 0.06760466705322471,
       "stop_loss": 7.516395332946775,
       "take_profit": 7.786814001159674,
-      "bars_held": 31,
+      "bars_held": 50,
       "max_holding_bars": 64,
       "signal_time": "2026-09-05 17:00:00",
       "signal_details": {
@@ -176,10 +181,10 @@
         "swing_high_level": 7.578,
         "swing_low_level": 7.269
       },
-      "unrealized_R": 0.5318952310154972,
-      "mfe_R": 0.9762639604162144,
+      "unrealized_R": 1.5227528584521028,
+      "mfe_R": 2.3223248755355153,
       "mae_R": 0.325421320138725,
-      "last_processed_bar": "2026-09-06 00:45:00"
+      "last_processed_bar": "2026-09-06 05:30:00"
     },
     "LTC": {
       "market": "LTC",
@@ -199,7 +204,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-09-06 00:45:00"
+      "last_processed_bar": "2026-09-06 05:30:00"
     }
   },
   "fetch_errors": {}
