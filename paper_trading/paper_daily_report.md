@@ -1,6 +1,6 @@
 # Paper Trading Daily Report
 
-date: 2026-09-06
+date: 2026-09-07
 
 strategy: Swing Bullish BOS + strong ADX
 
@@ -11,18 +11,18 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 - open_positions: 0 (none)
 - new_signals: 1
 - new_entries: 1
-- closed_trades: 2
-- daily_net_R: -0.1473
-- cumulative_net_R: -7.5216
-- trades: 32
-- avg_R: -0.23505092025137667
-- win_rate: 0.28125
-- profit_factor: 0.7069260609604604
+- closed_trades: 1
+- daily_net_R: -1.1040
+- cumulative_net_R: -8.6256
+- trades: 33
+- avg_R: -0.26138221399906547
+- win_rate: 0.2727272727272727
+- profit_factor: 0.6777711980175981
 - max_drawdown_R: 18.2582
-- current_drawdown_R: 8.1699
+- current_drawdown_R: 9.2739
 - positive_markets: 4
-- last_60_trades_avg_R: -0.23505092025137667
-- last_60_trades_profit_factor: 0.7069260609604604
+- last_60_trades_avg_R: -0.26138221399906547
+- last_60_trades_profit_factor: 0.6777711980175981
 - mismatch_rate: 0.0000%
 
 ## Warning Monitor
@@ -41,7 +41,7 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 | ADA | 5 | 0.3024 | 0.0605 |
 | SOL | 3 | 0.0506 | 0.0169 |
 | AVAX | 2 | -0.1612 | -0.0806 |
-| LTC | 5 | -0.3356 | -0.0671 |
+| LTC | 6 | -1.4396 | -0.2399 |
 | DOGE | 3 | -3.3489 | -1.1163 |
 | ETH | 3 | -3.4949 | -1.1650 |
 | BTC | 7 | -4.7555 | -0.6794 |
@@ -50,7 +50,6 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 
 | trade_id | market | entry_time | exit_time | exit_reason | net_R | mfe_R | mae_R |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PT-000013-ADA | ADA | 2026-07-22 15:45:00 | 2026-07-22 19:00:00 | SL | -1.0862 | 0.8863 | 1.2530 |
 | PT-000014-ADA | ADA | 2026-07-30 14:30:00 | 2026-07-31 06:30:00 | TIME | -0.5683 | 1.7613 | 0.7592 |
 | PT-000015-BTC | BTC | 2026-08-02 21:30:00 | 2026-08-02 22:30:00 | SL | -1.3687 | 0.3347 | 1.1866 |
 | PT-000016-ADA | ADA | 2026-08-03 13:45:00 | 2026-08-03 14:30:00 | SL | -1.0634 | 0.2682 | 1.0730 |
@@ -70,15 +69,16 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 | PT-000030-AVAX | AVAX | 2026-09-05 17:00:00 | 2026-09-06 09:00:00 | TIME | 0.9734 | 2.3223 | 0.3254 |
 | PT-000031-DOGE | DOGE | 2026-09-05 17:45:00 | 2026-09-05 19:00:00 | SL | -1.0520 | 0.1857 | 1.0303 |
 | PT-000032-SOL | SOL | 2026-09-06 03:30:00 | 2026-09-06 07:00:00 | SL | -1.1206 | 0.2638 | 1.2619 |
+| PT-000033-LTC | LTC | 2026-09-07 00:15:00 | 2026-09-07 01:00:00 | SL | -1.1040 | 0.3744 | 1.4743 |
 
 ## Risk Mapping
 
 | risk_per_trade | estimated_return_pct | current_drawdown_pct | historical_max_dd_pct_estimate |
 | --- | --- | --- | --- |
-| 0.10% | -0.75% | 0.82% | 3.99% |
-| 0.25% | -1.88% | 2.04% | 9.97% |
-| 0.50% | -3.76% | 4.08% | 19.94% |
-| 1.00% | -7.52% | 8.17% | 39.88% |
+| 0.10% | -0.86% | 0.93% | 3.99% |
+| 0.25% | -2.16% | 2.32% | 9.97% |
+| 0.50% | -4.31% | 4.64% | 19.94% |
+| 1.00% | -8.63% | 9.27% | 39.88% |
 
 Default recommendation: paper trading or small observation at 0.1% - 0.25% risk per trade. 0.5% is not recommended. 1.0% is forbidden.
 
