@@ -1,6 +1,6 @@
 # Paper Trading Daily Report
 
-date: 2026-09-20
+date: 2026-09-21
 
 strategy: Swing Bullish BOS + strong ADX
 
@@ -8,7 +8,7 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 
 ## Summary
 
-- open_positions: 1 (AVAX)
+- open_positions: 2 (ETH, AVAX)
 - new_signals: 1
 - new_entries: 1
 - closed_trades: 0
