@@ -3,42 +3,37 @@
   "strategy_name": "Swing Bullish BOS + strong ADX",
   "status": "Paper Trading Candidate",
   "created_at": "2026-07-04T04:09:48+00:00",
-  "last_run_at": "2026-10-02T05:31:32+00:00",
-  "last_data_time": "2026-10-02 05:15:00",
-  "next_trade_seq": 39,
+  "last_run_at": "2026-10-02T11:18:32+00:00",
+  "last_data_time": "2026-10-02 11:00:00",
+  "next_trade_seq": 40,
   "warnings": [
     "Consecutive losses reached 12 or more"
   ],
   "consistency": {
     "mismatch_rate": 0.0,
     "mismatches": 0,
-    "comparable_rows": 115
+    "comparable_rows": 116
   },
   "markets": {
     "BTC": {
       "market": "BTC",
-      "position_status": "OPEN",
-      "trade_id": "PT-000038-BTC",
-      "entry_time": "2026-10-02 04:15:00",
-      "entry_price": 86805.47762399999,
-      "entry_close": 86788.12,
-      "atr_at_entry": 265.37133247730753,
-      "risk_per_unit": 796.1139974319226,
-      "stop_loss": 85992.00600256807,
-      "take_profit": 89176.46199229576,
-      "bars_held": 3,
+      "position_status": "FLAT",
+      "trade_id": null,
+      "entry_time": null,
+      "entry_price": null,
+      "entry_close": null,
+      "atr_at_entry": null,
+      "risk_per_unit": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "bars_held": 0,
       "max_holding_bars": 64,
-      "signal_time": "2026-10-02 04:15:00",
-      "signal_details": {
-        "adx_at_signal": 37.33236555605818,
-        "bos_level": 85649.95,
-        "swing_high_level": 85649.95,
-        "swing_low_level": 83186.0
-      },
-      "unrealized_R": -0.3099968406485567,
-      "mfe_R": 0.1565479320826312,
-      "mae_R": 0.5128034443772109,
-      "last_processed_bar": "2026-10-02 05:00:00"
+      "signal_time": null,
+      "signal_details": {},
+      "unrealized_R": 0.0,
+      "mfe_R": 0.0,
+      "mae_R": 0.0,
+      "last_processed_bar": "2026-10-02 11:00:00"
     },
     "ETH": {
       "market": "ETH",
@@ -58,7 +53,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-02 05:15:00"
+      "last_processed_bar": "2026-10-02 11:00:00"
     },
     "SOL": {
       "market": "SOL",
@@ -78,27 +73,32 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-02 05:15:00"
+      "last_processed_bar": "2026-10-02 11:00:00"
     },
     "XRP": {
       "market": "XRP",
-      "position_status": "FLAT",
-      "trade_id": null,
-      "entry_time": null,
-      "entry_price": null,
-      "entry_close": null,
-      "atr_at_entry": null,
-      "risk_per_unit": null,
-      "stop_loss": null,
-      "take_profit": null,
-      "bars_held": 0,
+      "position_status": "OPEN",
+      "trade_id": "PT-000039-XRP",
+      "entry_time": "2026-10-02 10:30:00",
+      "entry_price": 1.5459091200000001,
+      "entry_close": 1.5456,
+      "atr_at_entry": 0.007226410855522295,
+      "risk_per_unit": 0.021679232566566887,
+      "stop_loss": 1.5239207674334332,
+      "take_profit": 1.6106376976997008,
+      "bars_held": 2,
       "max_holding_bars": 64,
-      "signal_time": null,
-      "signal_details": {},
-      "unrealized_R": 0.0,
-      "mfe_R": 0.0,
-      "mae_R": 0.0,
-      "last_processed_bar": "2026-10-02 05:15:00"
+      "signal_time": "2026-10-02 10:30:00",
+      "signal_details": {
+        "adx_at_signal": 43.69866932227362,
+        "bos_level": 1.5443,
+        "swing_high_level": 1.5443,
+        "swing_low_level": 1.4744
+      },
+      "unrealized_R": -0.25449517103796176,
+      "mfe_R": 0.01383812822150442,
+      "mae_R": 0.387467590202175,
+      "last_processed_bar": "2026-10-02 11:00:00"
     },
     "DOGE": {
       "market": "DOGE",
@@ -118,7 +118,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-02 05:15:00"
+      "last_processed_bar": "2026-10-02 11:00:00"
     },
     "ADA": {
       "market": "ADA",
@@ -138,7 +138,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-02 05:15:00"
+      "last_processed_bar": "2026-10-02 11:00:00"
     },
     "LINK": {
       "market": "LINK",
@@ -158,7 +158,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-02 05:15:00"
+      "last_processed_bar": "2026-10-02 11:00:00"
     },
     "AVAX": {
       "market": "AVAX",
@@ -178,7 +178,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-02 05:15:00"
+      "last_processed_bar": "2026-10-02 11:00:00"
     },
     "LTC": {
       "market": "LTC",
@@ -198,7 +198,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-02 05:15:00"
+      "last_processed_bar": "2026-10-02 11:00:00"
     }
   },
   "fetch_errors": {}
