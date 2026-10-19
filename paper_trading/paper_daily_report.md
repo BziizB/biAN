@@ -8,21 +8,21 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 
 ## Summary
 
-- open_positions: 1 (BTC)
+- open_positions: 0 (none)
 - new_signals: 1
 - new_entries: 1
-- closed_trades: 0
-- daily_net_R: 0.0000
-- cumulative_net_R: -11.7775
-- trades: 42
-- avg_R: -0.2804170340110278
-- win_rate: 0.2857142857142857
-- profit_factor: 0.6487333838710357
+- closed_trades: 1
+- daily_net_R: -1.2193
+- cumulative_net_R: -12.9969
+- trades: 43
+- avg_R: -0.30225259913118036
+- win_rate: 0.27906976744186046
+- profit_factor: 0.6259686359486308
 - max_drawdown_R: 18.2582
-- current_drawdown_R: 12.4258
+- current_drawdown_R: 13.6451
 - positive_markets: 5
-- last_60_trades_avg_R: -0.2804170340110278
-- last_60_trades_profit_factor: 0.6487333838710357
+- last_60_trades_avg_R: -0.30225259913118036
+- last_60_trades_profit_factor: 0.6259686359486308
 - mismatch_rate: 0.0000%
 
 ## Warning Monitor
@@ -44,13 +44,12 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 | LTC | 7 | -2.5721 | -0.3674 |
 | ETH | 5 | -2.8452 | -0.5690 |
 | DOGE | 4 | -4.4310 | -1.1077 |
-| BTC | 8 | -5.9291 | -0.7411 |
+| BTC | 9 | -7.1484 | -0.7943 |
 
 ## Last 20 Trades
 
 | trade_id | market | entry_time | exit_time | exit_reason | net_R | mfe_R | mae_R |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PT-000023-SOL | SOL | 2026-08-27 08:15:00 | 2026-08-28 00:15:00 | TIME | 2.4065 | 2.8451 | 0.4734 |
 | PT-000024-XRP | XRP | 2026-08-21 08:00:00 | 2026-08-21 23:15:00 | TP | 2.9444 | 3.2045 | 0.2098 |
 | PT-000025-ADA | ADA | 2026-08-06 14:30:00 | 2026-08-07 06:30:00 | TIME | 0.0904 | 1.8415 | 0.6265 |
 | PT-000026-LINK | LINK | 2026-08-08 10:15:00 | 2026-08-09 02:15:00 | TIME | -0.5057 | 1.4074 | 0.5370 |
@@ -70,15 +69,16 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 | PT-000040-LTC | LTC | 2026-10-04 14:30:00 | 2026-10-04 21:15:00 | SL | -1.1325 | 1.0620 | 1.0620 |
 | PT-000041-LINK | LINK | 2026-10-11 15:45:00 | 2026-10-11 21:15:00 | SL | -1.1382 | 0.8194 | 1.4373 |
 | PT-000042-AVAX | AVAX | 2026-10-11 15:30:00 | 2026-10-12 07:30:00 | TIME | 1.4618 | 1.9522 | 0.0861 |
+| PT-000043-BTC | BTC | 2026-10-19 00:30:00 | 2026-10-19 14:00:00 | SL | -1.2193 | 1.2253 | 1.1049 |
 
 ## Risk Mapping
 
 | risk_per_trade | estimated_return_pct | current_drawdown_pct | historical_max_dd_pct_estimate |
 | --- | --- | --- | --- |
-| 0.10% | -1.18% | 1.24% | 3.99% |
-| 0.25% | -2.94% | 3.11% | 9.97% |
-| 0.50% | -5.89% | 6.21% | 19.94% |
-| 1.00% | -11.78% | 12.43% | 39.88% |
+| 0.10% | -1.30% | 1.36% | 3.99% |
+| 0.25% | -3.25% | 3.41% | 9.97% |
+| 0.50% | -6.50% | 6.82% | 19.94% |
+| 1.00% | -13.00% | 13.65% | 39.88% |
 
 Default recommendation: paper trading or small observation at 0.1% - 0.25% risk per trade. 0.5% is not recommended. 1.0% is forbidden.
 
