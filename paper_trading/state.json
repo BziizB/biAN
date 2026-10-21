@@ -3,9 +3,9 @@
   "strategy_name": "Swing Bullish BOS + strong ADX",
   "status": "Paper Trading Candidate",
   "created_at": "2026-07-04T04:09:48+00:00",
-  "last_run_at": "2026-10-21T06:38:53+00:00",
-  "last_data_time": "2026-10-21 06:15:00",
-  "next_trade_seq": 45,
+  "last_run_at": "2026-10-21T12:23:11+00:00",
+  "last_data_time": "2026-10-21 12:00:00",
+  "next_trade_seq": 46,
   "warnings": [
     "Consecutive losses reached 12 or more",
     "Recent 3 calendar months cumulative net_R below 0"
@@ -13,28 +13,33 @@
   "consistency": {
     "mismatch_rate": 0.0,
     "mismatches": 0,
-    "comparable_rows": 99
+    "comparable_rows": 100
   },
   "markets": {
     "BTC": {
       "market": "BTC",
-      "position_status": "FLAT",
-      "trade_id": null,
-      "entry_time": null,
-      "entry_price": null,
-      "entry_close": null,
-      "atr_at_entry": null,
-      "risk_per_unit": null,
-      "stop_loss": null,
-      "take_profit": null,
-      "bars_held": 0,
+      "position_status": "OPEN",
+      "trade_id": "PT-000045-BTC",
+      "entry_time": "2026-10-21 09:00:00",
+      "entry_price": 83555.717802,
+      "entry_close": 83539.01,
+      "atr_at_entry": 190.22789637120692,
+      "risk_per_unit": 570.6836891136207,
+      "stop_loss": 82968.32631088638,
+      "take_profit": 85251.06106734085,
+      "bars_held": 12,
       "max_holding_bars": 64,
-      "signal_time": null,
-      "signal_details": {},
-      "unrealized_R": 0.0,
-      "mfe_R": 0.0,
-      "mae_R": 0.0,
-      "last_processed_bar": "2026-10-21 06:15:00"
+      "signal_time": "2026-10-21 09:00:00",
+      "signal_details": {
+        "adx_at_signal": 30.81616168094848,
+        "bos_level": 83439.0,
+        "swing_high_level": 83439.0,
+        "swing_low_level": 81200.0
+      },
+      "unrealized_R": -0.03931740196541323,
+      "mfe_R": 0.1977277468281472,
+      "mae_R": 0.5074614984174414,
+      "last_processed_bar": "2026-10-21 12:00:00"
     },
     "ETH": {
       "market": "ETH",
@@ -54,7 +59,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-21 06:15:00"
+      "last_processed_bar": "2026-10-21 12:00:00"
     },
     "SOL": {
       "market": "SOL",
@@ -74,7 +79,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-21 06:15:00"
+      "last_processed_bar": "2026-10-21 12:00:00"
     },
     "XRP": {
       "market": "XRP",
@@ -94,7 +99,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-21 06:15:00"
+      "last_processed_bar": "2026-10-21 12:00:00"
     },
     "DOGE": {
       "market": "DOGE",
@@ -114,7 +119,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-21 06:15:00"
+      "last_processed_bar": "2026-10-21 12:00:00"
     },
     "ADA": {
       "market": "ADA",
@@ -134,7 +139,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-21 06:15:00"
+      "last_processed_bar": "2026-10-21 12:00:00"
     },
     "LINK": {
       "market": "LINK",
@@ -154,7 +159,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-21 06:15:00"
+      "last_processed_bar": "2026-10-21 12:00:00"
     },
     "AVAX": {
       "market": "AVAX",
@@ -174,7 +179,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-21 06:15:00"
+      "last_processed_bar": "2026-10-21 12:00:00"
     },
     "LTC": {
       "market": "LTC",
@@ -194,7 +199,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-10-21 06:15:00"
+      "last_processed_bar": "2026-10-21 12:00:00"
     }
   },
   "fetch_errors": {}
