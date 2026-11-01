@@ -23,7 +23,7 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 - positive_markets: 5
 - last_60_trades_avg_R: -0.2896064602733485
 - last_60_trades_profit_factor: 0.6363809767823155
-- mismatch_rate: 0.0000%
+- mismatch_rate: 0.9434%
 
 ## Warning Monitor
 
