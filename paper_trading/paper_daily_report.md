@@ -23,13 +23,13 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 - positive_markets: 5
 - last_60_trades_avg_R: -0.2896064602733485
 - last_60_trades_profit_factor: 0.6363809767823155
-- mismatch_rate: 2.0619%
+- mismatch_rate: 5.1546%
 
 ## Warning Monitor
 
 - WARNING: Consecutive losses reached 12 or more
 - WARNING: Recent 3 calendar months cumulative net_R below 0
-- WARNING: Backtest/realtime mismatch_rate above 1%: 2.06%
+- WARNING: Backtest/realtime mismatch_rate above 1%: 5.15%
 
 If WARNING is triggered, pause new live-position recommendations and continue paper signal logging.
 
