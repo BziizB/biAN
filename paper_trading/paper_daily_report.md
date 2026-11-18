@@ -1,6 +1,6 @@
 # Paper Trading Daily Report
 
-date: 2026-11-17
+date: 2026-11-18
 
 strategy: Swing Bullish BOS + strong ADX
 
