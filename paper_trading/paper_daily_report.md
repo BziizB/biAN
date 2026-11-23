@@ -1,6 +1,6 @@
 # Paper Trading Daily Report
 
-date: 2026-11-22
+date: 2026-11-23
 
 strategy: Swing Bullish BOS + strong ADX
 
@@ -23,13 +23,13 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 - positive_markets: 5
 - last_60_trades_avg_R: -0.2896064602733485
 - last_60_trades_profit_factor: 0.6363809767823155
-- mismatch_rate: 11.3402%
+- mismatch_rate: 12.3711%
 
 ## Warning Monitor
 
 - WARNING: Consecutive losses reached 12 or more
 - WARNING: Recent 3 calendar months cumulative net_R below 0
-- WARNING: Backtest/realtime mismatch_rate above 1%: 11.34%
+- WARNING: Backtest/realtime mismatch_rate above 1%: 12.37%
 
 If WARNING is triggered, pause new live-position recommendations and continue paper signal logging.
 
