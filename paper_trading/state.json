@@ -3,8 +3,8 @@
   "strategy_name": "Swing Bullish BOS + strong ADX",
   "status": "Paper Trading Candidate",
   "created_at": "2026-07-04T04:09:48+00:00",
-  "last_run_at": "2026-11-23T12:51:41+00:00",
-  "last_data_time": "2026-11-23 12:30:00",
+  "last_run_at": "2026-11-24T00:26:56+00:00",
+  "last_data_time": "2026-11-24 00:00:00",
   "next_trade_seq": 47,
   "warnings": [
     "Consecutive losses reached 12 or more",
@@ -13,33 +13,28 @@
   "consistency": {
     "mismatch_rate": 0.0,
     "mismatches": 0,
-    "comparable_rows": 69
+    "comparable_rows": 70
   },
   "markets": {
     "BTC": {
       "market": "BTC",
-      "position_status": "OPEN",
-      "trade_id": "PT-000046-BTC",
-      "entry_time": "2026-11-23 05:30:00",
-      "entry_price": 61729.713474000004,
-      "entry_close": 61717.37,
-      "atr_at_entry": 302.5587264281697,
-      "risk_per_unit": 907.6761792845091,
-      "stop_loss": 60809.693820715496,
-      "take_profit": 64440.39853785353,
-      "bars_held": 28,
+      "position_status": "FLAT",
+      "trade_id": null,
+      "entry_time": null,
+      "entry_price": null,
+      "entry_close": null,
+      "atr_at_entry": null,
+      "risk_per_unit": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "bars_held": 0,
       "max_holding_bars": 64,
-      "signal_time": "2026-11-23 05:30:00",
-      "signal_details": {
-        "adx_at_signal": 31.817909098399955,
-        "bos_level": 61669.99,
-        "swing_high_level": 61669.99,
-        "swing_low_level": 58768.51
-      },
-      "unrealized_R": -0.5431378274007461,
-      "mfe_R": 0.2467950631651195,
-      "mae_R": 0.6368019930363581,
-      "last_processed_bar": "2026-11-23 12:30:00"
+      "signal_time": null,
+      "signal_details": {},
+      "unrealized_R": 0.0,
+      "mfe_R": 0.0,
+      "mae_R": 0.0,
+      "last_processed_bar": "2026-11-24 00:00:00"
     },
     "ETH": {
       "market": "ETH",
@@ -59,7 +54,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-11-23 12:30:00"
+      "last_processed_bar": "2026-11-24 00:00:00"
     },
     "SOL": {
       "market": "SOL",
@@ -79,7 +74,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-11-23 12:30:00"
+      "last_processed_bar": "2026-11-24 00:00:00"
     },
     "XRP": {
       "market": "XRP",
@@ -99,7 +94,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-11-23 12:30:00"
+      "last_processed_bar": "2026-11-24 00:00:00"
     },
     "DOGE": {
       "market": "DOGE",
@@ -119,7 +114,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-11-23 12:30:00"
+      "last_processed_bar": "2026-11-24 00:00:00"
     },
     "ADA": {
       "market": "ADA",
@@ -139,7 +134,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-11-23 12:30:00"
+      "last_processed_bar": "2026-11-24 00:00:00"
     },
     "LINK": {
       "market": "LINK",
@@ -159,7 +154,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-11-23 12:30:00"
+      "last_processed_bar": "2026-11-24 00:00:00"
     },
     "AVAX": {
       "market": "AVAX",
@@ -179,7 +174,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-11-23 12:30:00"
+      "last_processed_bar": "2026-11-24 00:00:00"
     },
     "LTC": {
       "market": "LTC",
@@ -199,7 +194,7 @@
       "unrealized_R": 0.0,
       "mfe_R": 0.0,
       "mae_R": 0.0,
-      "last_processed_bar": "2026-11-23 12:30:00"
+      "last_processed_bar": "2026-11-24 00:00:00"
     }
   },
   "fetch_errors": {}

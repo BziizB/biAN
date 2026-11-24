@@ -1,6 +1,6 @@
 # Paper Trading Daily Report
 
-date: 2026-11-23
+date: 2026-11-24
 
 strategy: Swing Bullish BOS + strong ADX
 
@@ -8,21 +8,21 @@ status: Paper Trading Candidate. Not verified live alpha. Not a production heavy
 
 ## Summary
 
-- open_positions: 1 (BTC)
-- new_signals: 1
-- new_entries: 1
+- open_positions: 0 (none)
+- new_signals: 0
+- new_entries: 0
 - closed_trades: 0
 - daily_net_R: 0.0000
-- cumulative_net_R: -13.0323
-- trades: 45
-- avg_R: -0.2896064602733485
-- win_rate: 0.28888888888888886
-- profit_factor: 0.6363809767823155
+- cumulative_net_R: -10.1435
+- trades: 46
+- avg_R: -0.22051048316776747
+- win_rate: 0.30434782608695654
+- profit_factor: 0.7169827484388478
 - max_drawdown_R: 18.2582
-- current_drawdown_R: 13.6806
+- current_drawdown_R: 10.7918
 - positive_markets: 5
-- last_60_trades_avg_R: -0.2896064602733485
-- last_60_trades_profit_factor: 0.6363809767823155
+- last_60_trades_avg_R: -0.22051048316776747
+- last_60_trades_profit_factor: 0.7169827484388478
 - mismatch_rate: 0.0000%
 
 ## Warning Monitor
@@ -42,15 +42,14 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 | LINK | 4 | 0.1388 | 0.0347 |
 | SOL | 3 | 0.0506 | 0.0169 |
 | ETH | 5 | -2.8452 | -0.5690 |
+| BTC | 11 | -3.2026 | -0.2911 |
 | LTC | 8 | -3.6646 | -0.4581 |
 | DOGE | 4 | -4.4310 | -1.1077 |
-| BTC | 10 | -6.0914 | -0.6091 |
 
 ## Last 20 Trades
 
 | trade_id | market | entry_time | exit_time | exit_reason | net_R | mfe_R | mae_R |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PT-000026-LINK | LINK | 2026-08-08 10:15:00 | 2026-08-09 02:15:00 | TIME | -0.5057 | 1.4074 | 0.5370 |
 | PT-000027-LINK | LINK | 2026-08-21 02:15:00 | 2026-08-21 07:15:00 | TP | 2.9223 | 3.0574 | 0.3062 |
 | PT-000028-LTC | LTC | 2026-08-08 20:45:00 | 2026-08-09 12:45:00 | TIME | 0.2148 | 1.3493 | 0.9305 |
 | PT-000029-LTC | LTC | 2026-09-05 02:45:00 | 2026-09-05 17:00:00 | TP | 2.8955 | 3.2019 | 0.0733 |
@@ -70,15 +69,16 @@ If WARNING is triggered, pause new live-position recommendations and continue pa
 | PT-000043-BTC | BTC | 2026-10-19 00:30:00 | 2026-10-19 14:00:00 | SL | -1.2193 | 1.2253 | 1.1049 |
 | PT-000044-LTC | LTC | 2026-10-20 14:00:00 | 2026-10-20 15:15:00 | SL | -1.0925 | 0.4429 | 1.0109 |
 | PT-000045-BTC | BTC | 2026-10-21 09:00:00 | 2026-10-22 01:00:00 | TIME | 1.0570 | 2.3813 | 0.5075 |
+| PT-000046-BTC | BTC | 2026-11-23 05:30:00 | 2026-11-23 14:15:00 | TP | 2.8888 | 3.1793 | 0.7132 |
 
 ## Risk Mapping
 
 | risk_per_trade | estimated_return_pct | current_drawdown_pct | historical_max_dd_pct_estimate |
 | --- | --- | --- | --- |
-| 0.10% | -1.30% | 1.37% | 3.99% |
-| 0.25% | -3.26% | 3.42% | 9.97% |
-| 0.50% | -6.52% | 6.84% | 19.94% |
-| 1.00% | -13.03% | 13.68% | 39.88% |
+| 0.10% | -1.01% | 1.08% | 3.99% |
+| 0.25% | -2.54% | 2.70% | 9.97% |
+| 0.50% | -5.07% | 5.40% | 19.94% |
+| 1.00% | -10.14% | 10.79% | 39.88% |
 
 Default recommendation: paper trading or small observation at 0.1% - 0.25% risk per trade. 0.5% is not recommended. 1.0% is forbidden.
 
